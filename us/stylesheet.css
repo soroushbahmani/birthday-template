@@ -969,6 +969,7 @@ audio {
 }
 
 .bannar {
+	margin-top: 50px;
 	max-width: 100%;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);

@@ -7,15 +7,15 @@ $('document').ready(function () {
 	$(window).resize(function () {
 		vw = $(window).width() / 2;
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9').stop();
-		$('#b11').animate({ top: 140, left: 0 }, 500);
-		$('#b22').animate({ top: 140, left: 80}, 500);
-		$('#b33').animate({ top: 140, left: 130 }, 500);
-		$('#b44').animate({ top: 140, left: 190}, 500);
-		$('#b55').animate({ top: 140, left: 260}, 500);
-		$('#b66').animate({ top: 240, left: vw + 100 }, 500);
-		$('#b77').animate({ top: 240, left: vw + 200 }, 500);
-		$('#b88').animate({ top: 240, left: vw + 300 }, 500);
-		$('#b99').animate({ top: 240, left: vw + 400 }, 500);
+		$('#b11').animate({ top: 100, left: 0 }, 500);
+		$('#b22').animate({ top: 180, left: 70 }, 500);
+		$('#b33').animate({ top: 100, left: 120 }, 500);
+		$('#b44').animate({ top: 180, left: 180 }, 500);
+		$('#b55').animate({ top: 100, left: 240 }, 500);
+		$('#b66').animate({ top: 180, left: 300 }, 500);
+		$('#b77').animate({ top: 100, left: 350 }, 500);
+		$('#b88').animate({ top: 180, left: 400 }, 500);
+		$('#b99').animate({ top: 100, left: 450 }, 500);
 	});
 
 	$('#turn_on').click(function () {
@@ -132,14 +132,14 @@ $('document').ready(function () {
 		$('#b8').attr('id', 'b88')
 		$('#b9').attr('id', 'b99')
 		$('#b11').animate({ top: 100, left: 0 }, 500);
-		$('#b22').animate({ top: 100, left: 70}, 500);
+		$('#b22').animate({ top: 180, left: 70 }, 500);
 		$('#b33').animate({ top: 100, left: 120 }, 500);
-		$('#b44').animate({ top: 100, left: 180 }, 500);
+		$('#b44').animate({ top: 180, left: 180 }, 500);
 		$('#b55').animate({ top: 100, left: 240 }, 500);
-		$('#b66').animate({ top: 100, left: 300}, 500);
-		$('#b77').animate({ top: 240, left: vw + 200 }, 500);
-		$('#b88').animate({ top: 240, left: vw + 300 }, 500);
-		$('#b99').animate({ top: 240, left: vw + 400 }, 500);
+		$('#b66').animate({ top: 180, left: 300 }, 500);
+		$('#b77').animate({ top: 100, left: 350 }, 500);
+		$('#b88').animate({ top: 180, left: 400 }, 500);
+		$('#b99').animate({ top: 100, left: 450 }, 500);
 		$('.balloons').css('opacity', '0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function () {
