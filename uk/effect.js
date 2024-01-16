@@ -131,15 +131,15 @@ $('document').ready(function () {
 		$('#b7').attr('id', 'b77')
 		$('#b8').attr('id', 'b88')
 		$('#b9').attr('id', 'b99')
-		$('#b11').animate({ top: 100, left: 0 }, 500);
-		$('#b22').animate({ top: 180, left: 50 }, 500);
-		$('#b33').animate({ top: 100, left: 100 }, 500);
-		$('#b44').animate({ top: 180, left: 150 }, 500);
-		$('#b55').animate({ top: 100, left: 200 }, 500);
-		$('#b66').animate({ top: 180, left: 250 }, 500);
-		$('#b77').animate({ top: 100, left: 300 }, 500);
-		$('#b88').animate({ top: 180, left: 350 }, 500);
-		$('#b99').animate({ top: 100, left: 400 }, 500);
+		$('#b11').animate({ top: 190, left: 0 }, 500);
+		$('#b22').animate({ top: 190, left: 80 }, 500);
+		$('#b33').animate({ top: 190, left: 160 }, 500);
+		$('#b44').animate({ top: 190, left: 240 }, 500);
+		$('#b55').animate({ top: 190, left: 320 }, 500);
+		$('#b66').animate({ top: 190, left: 400 }, 500);
+		$('#b77').animate({ top: 190, left: 480 }, 500);
+		$('#b88').animate({ top: 190, left: 560 }, 500);
+		$('#b99').animate({ top: 190, left: 640 }, 500);
 		$('.balloons').css('opacity', '0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function () {
